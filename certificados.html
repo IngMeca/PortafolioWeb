@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Certificados de Ashley Arturo Martínez Wilson en electricidad, automatización, tecnología, seguridad industrial y gestión.">
+  <title>Certificados | Arturo Wilson</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="certificados.css">
+</head>
+<body class="certificates-page">
+  <header class="site-header">
+    <a class="brand" href="index.html#inicio"><span>AW</span><strong>ARTURO WILSON</strong></a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-label="Abrir menú" aria-controls="site-nav"><i></i><i></i><i></i></button>
+    <nav id="site-nav">
+      <a href="index.html#sobre-mi">Sobre mí</a><a href="index.html#experiencia">Experiencia</a>
+      <a href="index.html#habilidades">Habilidades</a><a href="index.html#formacion">Formación</a>
+      <a href="certificados.html" aria-current="page">Certificados</a>
+      <a class="nav-cta" href="index.html#contacto">Contacto ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cert-hero">
+      <div class="cert-hero-inner">
+        <div>
+          <p class="eyebrow">FORMACIÓN CONTINUA · EVIDENCIA DOCUMENTAL</p>
+          <h1>Aprender.<br><span>Aplicar.</span><br>Avanzar.</h1>
+          <p>Una selección de constancias y certificados de mi formación en ingeniería, tecnología, seguridad y gestión. Recorre la colección con las flechas o desliza sobre ella.</p>
+        </div>
+        <div class="cert-hero-mark" aria-hidden="true"><span>AW</span><small>CERTIFICACIONES</small></div>
+      </div>
+      <div class="cert-hero-foot"><span>01 / FORMACIÓN</span><span>DESLIZA PARA EXPLORAR →</span></div>
+    </section>
+
+    <section class="cert-gallery section" aria-labelledby="gallery-title">
+      <div class="cert-intro">
+        <div><p class="eyebrow dark">MI TRAYECTORIA DE APRENDIZAJE</p><h2 id="gallery-title">Certificados y constancias</h2></div>
+        <p>Cada documento se puede ampliar para leerlo. Los datos personales de identificación se han ocultado en las vistas públicas.</p>
+      </div>
+
+      <div class="cert-toolbar">
+        <div class="cert-filters" role="group" aria-label="Filtrar certificados">
+          <button type="button" class="active" data-filter="todos" aria-pressed="true">Todos</button>
+          <button type="button" data-filter="electricidad" aria-pressed="false">Electricidad</button>
+          <button type="button" data-filter="automatizacion" aria-pressed="false">Automatización</button>
+          <button type="button" data-filter="tecnologia" aria-pressed="false">Tecnología</button>
+          <button type="button" data-filter="seguridad" aria-pressed="false">Seguridad</button>
+          <button type="button" data-filter="ambiente" aria-pressed="false">Ambiente</button>
+          <button type="button" data-filter="gestion" aria-pressed="false">Gestión</button>
+        </div>
+        <div class="cert-controls">
+          <span class="cert-count" aria-live="polite">01 / 45</span>
+          <button class="cert-arrow" type="button" data-direction="prev" aria-label="Certificado anterior">←</button>
+          <button class="cert-arrow" type="button" data-direction="next" aria-label="Certificado siguiente">→</button>
+        </div>
+      </div>
+
+      <div class="cert-track" id="cert-track" tabindex="0" role="region" aria-roledescription="carrusel" aria-label="Certificados y constancias"></div>
+      <p class="cert-hint">Usa las flechas, desliza horizontalmente o selecciona un certificado para ampliarlo.</p>
+      <noscript><p>Activa JavaScript para explorar los certificados.</p></noscript>
+    </section>
+
+    <section class="cert-contact">
+      <div><p class="eyebrow">HABLEMOS</p><h2>Experiencia en campo.<br>Formación constante.</h2></div>
+      <a class="button primary" href="mailto:ing.meca.arthur@outlook.com">Escríbeme ↗</a>
+    </section>
+  </main>
+
+  <footer class="cert-footer"><strong>ARTURO WILSON</strong><span>Villahermosa, Tabasco · México</span><a href="index.html">Volver al inicio ↑</a></footer>
+
+  <dialog class="cert-dialog" aria-label="Vista ampliada del certificado">
+    <div class="cert-dialog-head"><span class="cert-dialog-category"></span><button type="button" class="cert-dialog-close" aria-label="Cerrar certificado">Cerrar ×</button></div>
+    <div class="cert-dialog-view"><button type="button" class="cert-dialog-arrow" data-modal-direction="prev" aria-label="Certificado anterior">←</button><img alt=""><button type="button" class="cert-dialog-arrow" data-modal-direction="next" aria-label="Certificado siguiente">→</button></div>
+    <div class="cert-dialog-caption"><div><strong></strong><span></span></div><small></small></div>
+  </dialog>
+  <script src="certificados.js" defer></script>
+</body>
+</html>
