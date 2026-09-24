@@ -47,7 +47,20 @@ const certificates = [
 ].map(([page, title, issuer, category]) => ({
   title, issuer, category,
   image: `assets/certificados/cert-${String(page).padStart(3, '0')}.webp`
-}));
+})).concat([
+  {
+    title: 'Instalaciones eléctricas en baja tensión',
+    issuer: 'I.T.E. Capacitaciones',
+    category: 'electricidad',
+    image: 'assets/certificados/instalaciones-electricas-baja-tension.webp'
+  },
+  {
+    title: 'Introducción a los sistemas de gestión integral',
+    issuer: 'MRE Consultores',
+    category: 'gestion',
+    image: 'assets/certificados/introduccion-sistemas-gestion-integral.webp'
+  }
+]);
 
 const categoryNames = {
   electricidad: 'Electricidad', automatizacion: 'Automatización',

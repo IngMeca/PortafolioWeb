@@ -10,6 +10,16 @@
 .cert-hero-mark span{font-family:"Barlow Condensed";font-size:110px;font-weight:800;line-height:1}
 .cert-hero-mark small{font-size:9px;letter-spacing:.3em;font-weight:700}
 .cert-hero-foot{width:min(1200px,100%);margin:0 auto;display:flex;justify-content:space-between;gap:20px;border-top:1px solid rgba(255,255,255,.2);padding:22px 0;font-size:10px;font-weight:700;letter-spacing:.15em;color:#a7bccf}
+.badge-section{background:#eaf0f5;padding:88px 5vw}
+.badge-section-inner{width:min(1200px,100%);margin:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,520px);align-items:center;gap:56px}
+.badge-intro h2{font-family:"Barlow Condensed",Arial,sans-serif;font-size:clamp(42px,5.2vw,76px);line-height:.95;text-transform:uppercase;margin:0 0 22px}
+.badge-intro>p:last-child{max-width:410px;color:#617185;font-size:14px;line-height:1.7;margin:0}
+.badge-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:18px}
+.badge-card{display:flex;align-items:center;gap:24px;padding:24px;background:#fff;border:1px solid var(--line);box-shadow:0 15px 40px rgba(7,24,43,.06)}
+.badge-card img{display:block;width:160px;height:160px;object-fit:contain;flex:none}
+.badge-card-copy small{color:#996e08;font-size:10px;font-weight:800;letter-spacing:.12em}
+.badge-card-copy h3{font-family:"Barlow Condensed",Arial,sans-serif;font-size:29px;line-height:1.05;text-transform:uppercase;margin:10px 0}
+.badge-card-copy p{color:#617185;font-size:12px;line-height:1.5;margin:0}
 .cert-gallery{max-width:1200px}
 .cert-intro{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:48px}
 .cert-intro h2,.cert-contact h2{font-family:"Barlow Condensed",Arial,sans-serif;font-size:clamp(42px,5.2vw,76px);line-height:.95;text-transform:uppercase;margin:0}
@@ -55,5 +65,7 @@
 .cert-dialog-caption{border-top:1px solid #36506b;font-size:13px}
 .cert-dialog-caption div{display:flex;flex-direction:column;gap:3px}.cert-dialog-caption span,.cert-dialog-caption small{font-size:11px;color:#a8bed3}
 @media(max-width:950px){.cert-card{flex-basis:calc((100% - var(--gap))/2)}.cert-hero-mark{width:195px;height:195px}.cert-hero-mark span{font-size:80px}.cert-toolbar{align-items:flex-start;flex-direction:column}.cert-controls{align-self:flex-end}}
+@media(max-width:850px){.badge-section-inner{grid-template-columns:1fr;gap:30px}.badge-card{max-width:520px}}
 @media(max-width:600px){.cert-hero{min-height:570px;padding-top:135px}.cert-hero-mark{display:none}.cert-hero h1{font-size:clamp(66px,18vw,105px)}.cert-hero-inner p:last-child{font-size:14px}.cert-hero-foot{font-size:9px}.cert-intro{align-items:flex-start;flex-direction:column;gap:16px}.cert-card{flex-basis:86%}.cert-card-image{height:255px}.cert-gallery{padding:75px 0}.cert-contact{padding:68px 5vw;align-items:flex-start;flex-direction:column}.cert-dialog{width:100vw;max-height:100vh;height:100vh}.cert-dialog-view{grid-template-columns:38px minmax(0,1fr) 38px;gap:2px;padding:12px 5px;height:calc(100vh - 132px)}.cert-dialog-arrow{width:36px;height:44px}.cert-dialog-view img{max-height:100%;}.cert-dialog-caption{align-items:flex-start}.cert-dialog-caption small{flex:none}}
+@media(max-width:480px){.badge-section{padding:70px 5vw}.badge-card{padding:20px;gap:18px}.badge-card img{width:112px;height:112px}.badge-card-copy h3{font-size:24px}}
 @media(prefers-reduced-motion:reduce){.cert-card{transition:none}}
