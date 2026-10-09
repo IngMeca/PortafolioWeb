@@ -1,0 +1,13 @@
+// Colecciones independientes. Mantén ejemplo:true hasta reemplazar por contenido propio.
+// images: [{src:'assets/proyectos/foto.jpg',alt:'Descripción de la evidencia'}]
+window.contenido = {
+ proyectos:[
+ {id:'plantilla-automatizacion',title:'Simulación de arranque y paro',category:'automatizacion',status:'Plantilla',ejemplo:true,summary:'Estructura para documentar una práctica de control.',tags:['PLC','Control'],sections:[['Objetivo','Describe qué debe hacer el sistema y cuáles son sus condiciones de operación.'],['Mi participación','Indica las tareas que realizaste personalmente.'],['Desarrollo y pruebas','Documenta la lógica, las dificultades y las pruebas realizadas.'],['Resultado','Añade resultados comprobados y posibles mejoras.']],images:[]},
+ {id:'plantilla-electricidad',title:'Montaje de un tablero eléctrico',category:'electricidad',status:'Plantilla',ejemplo:true,summary:'Organiza planos, fotografías y verificaciones de un trabajo.',tags:['EPLAN','Tableros'],sections:[['Objetivo','Describe el alcance del trabajo.'],['Mi participación','Detalla tu aportación y las herramientas utilizadas.'],['Evidencias y resultado','Agrega fotografías autorizadas, verificaciones y resultados reales.']],images:[]},
+ {id:'plantilla-software',title:'Aplicación de registro técnico',category:'programacion',status:'Plantilla',ejemplo:true,summary:'Presenta una aplicación mediante su problema, solución y pruebas.',tags:['Software'],sections:[['Problema','Describe qué necesidad atiende.'],['Implementación','Explica las decisiones y herramientas.'],['Validación','Documenta las pruebas y el resultado.']],images:[]}
+ ],
+ blog:[
+ {id:'nota-rutas',title:'Rutas relativas al mover un archivo CSS',category:'programacion',type:'Nota breve',ejemplo:true,summary:'Por qué una imagen puede dejar de verse aunque siga en la misma carpeta.',tags:['HTML','CSS'],sections:[['El punto de partida','Las rutas url() de una hoja CSS externa se resuelven desde la ubicación de esa hoja. Si styles.css pasa de la raíz a css/, necesita subir un nivel para encontrar assets/.'],['Ejemplo','Con el HTML en la raíz y los estilos en css/, esta ruta apunta a assets/image1.jpeg.']],code:'.hero {\n  background-image: url("../assets/image1.jpeg");\n}'},
+ {id:'nota-bitacora',title:'Cómo estructurar una nota de aprendizaje',category:'programacion',type:'Apunte',ejemplo:true,summary:'Una plantilla breve para registrar un concepto sin necesitar un proyecto asociado.',tags:['Aprendizaje'],sections:[['Contexto','Anota la pregunta o el concepto que estás estudiando.'],['Explicación y ejemplo','Explica con tus palabras e incluye un ejemplo que hayas revisado.'],['Fuentes y dudas','Registra la fuente consultada y lo que todavía necesitas comprobar.']]}
+ ]
+};
